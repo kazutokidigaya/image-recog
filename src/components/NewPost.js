@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const NewPost = ({ image }) => {
   const { url, width, height } = image;
   const [faces, setFaces] = useState([]);
-  const videoHeight = 480;
-  const videoWidth = 640;
+  const videoHeight = "80%";
+  const videoWidth = "80%";
 
   const imgRef = useRef();
   const canvasRef = useRef();
